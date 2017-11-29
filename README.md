@@ -8,7 +8,7 @@ Not all script are already uploades here in Github, but soon will be.
 The pipeline has four simple bash scripts that have to be run in the following order:
 
 1. [pair-end_cleaner](https://github.com/GenomicaMicrob/pair-end_cleaner) to unzip, clean, assemble, and convert illumina pair-end fastq files in all subdirectories for 16S amplicon data (V3, V4 and V3-V4 regions).
-2. chimera_detector to detect and eliminated chimeric sequences based on their similarity with a selected database.
+2. chimera_detector to detect and eliminate chimeric sequences based on their similarity with a selected database.
 3. [mg_classifier](https://github.com/GenomicaMicrob/mg_classifier), a very fast script that taxonomically classifies sequences.
 4. metagenomic_reporter a script that collects reports and log files from the previous three scripts and produces a comprehensive report.
 
