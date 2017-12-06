@@ -26,12 +26,13 @@ Each script describe the dependencies they need, but basically, all of them are 
 You need to have the preformatted databases in a subdirectory named `/mg_pipeline/databases/`
 
 Available databases are:
+### 16S or 18S
+- [SILVA ver. 128](https://www.arb-silva.de)
+- [RDP ver. 11.5](https://rdp.cme.msu.edu)
 ### 16S
-- SILVA ver. 128
-- RDP ver. 11.5
 - RDP V3-V4 ver. 11.5
 ### 18S
-- Protista ver. 4.5
+- [Protista ver. 4.5](https://figshare.com/articles/PR2_rRNA_gene_database/3803709)
 
 We recommend getting the [EzBioCloud](http://www.ezbiocloud.net/resources/pipelines) curated database, but since it is not publicly available (although it is free for academia), we cannot distributed it. If you get it, then you´ll have to formatted accordingly. You can use our script [db_reformatter.sh](https://github.com/GenomicaMicrob/db_reformatter)
 
