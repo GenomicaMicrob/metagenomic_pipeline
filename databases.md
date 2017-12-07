@@ -4,14 +4,21 @@ You need to have the preformatted databases in a subdirectory named `/mg_pipelin
 
 Available databases in [figshare](https://figshare.com/account/home#/projects/27328) are:
 ### 16S or 18S
-- [SILVA ver. 128](https://www.arb-silva.de)
-- Ribosomal Database Proyect [RDP ver. 11.5](https://rdp.cme.msu.edu).
+- [SILVA](10.6084/m9.figshare.4814062) ver. 128 (see original [source](https://www.arb-silva.de))
+- [RDP](10.6084/m9.figshare.4814959) ver. 11.5 (see original [source](http://rdp.cme.msu.edu/misc/resources.jsp))
 ### 16S
 - RDP V3-V4 ver. 11.5 Trimmed for the 16S V3 and V4 regions.
 ### 18S
 - Protist Ribosomal Reference database (PR2) [Protista ver. 4.7.2](https://github.com/vaulot/pr2_database).
 
 We recommend getting the [EzBioCloud](http://www.ezbiocloud.net/resources/pipelines) curated database, but since it is not publicly available (although it is free for academia), we cannot distributed it. If you get it, then you´ll have to formatted accordingly. You can use our script [db_reformatter.sh](https://github.com/GenomicaMicrob/db_reformatter)
+
+The databases have to have the following format:
+
+```
+>accession:domain;phylum;class;order;family;genus;species
+agtcgggcttaggtaaaaa
+```
 
 Since the RDP database is to big and consumes a lot of time and memory, we have only the V3-V4 regions cut out from the original db, this is a lot faster, of course it only works if your sequences are from the V3 and/or V4 16S rRNA regions. Also the RDP db has many sequences (362,293) duplicated, it is now dereplicated (only one sequence of the identical ones was kept).  
 
