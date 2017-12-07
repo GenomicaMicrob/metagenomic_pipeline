@@ -16,9 +16,9 @@ The pipeline has four simple bash scripts that have to be run in the following o
 
 Each script describe the dependencies they need, but basically, all of them are already incorporated in any [Ubuntu](https://www.ubuntu.com) distro. You will also need the following scripts, so please **install them first**:
 
-1. [CUTADAPT](https://github.com/marcelm/cutadapt)
-2. [PEAR](https://sco.h-its.org/exelixis/web/software/pear/doc.html)
-3. [VSEARCH](https://github.com/torognes/vsearch)
+1. [CUTADAPT v1.13](https://github.com/marcelm/cutadapt)
+2. [PEAR v0.9.8](https://sco.h-its.org/exelixis/web/software/pear/doc.html)
+3. [VSEARCH v2.5.0](https://github.com/torognes/vsearch)
 4. And several [databases](https://github.com/GenomicaMicrob/metagenomic_pipeline/blob/master/databases.md)
 
 ## Databases
