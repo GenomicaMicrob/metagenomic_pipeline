@@ -3,7 +3,7 @@ Description of the metagenomic pipeline we have for analysis of 16S and 18S ampl
 
 At the Microbial Genomics Laboratory we have developed a simplified pipeline to analyse NGS sequences comming from the Illumina platform. The aim of this pipeline is to have a very simple, highly standarised, workflow to quickly process many samples. To achieve this, we have worked out the parameters that are enough to get a good result, of course, if you want to change some of this parameters, you'll have to mess with the code and since it is in bash it is quite straithforward.
 
-Not all script are already uploades here in Github, but soon will be.
+Not all script are already uploaded here in Github, but soon will be.
 
 The pipeline has four simple bash scripts that have to be run in the following order:
 
@@ -14,7 +14,7 @@ The pipeline has four simple bash scripts that have to be run in the following o
 
 ## Dependencies
 
-Each script describe the dependencies they need, but basically, all of them are already incorporated in any [Ubuntu](https://www.ubuntu.com) distro. You will also need the following scripts, so please install them first:
+Each script describe the dependencies they need, but basically, all of them are already incorporated in any [Ubuntu](https://www.ubuntu.com) distro. You will also need the following scripts, so please **install them first**:
 
 1. [CUTADAPT](https://github.com/marcelm/cutadapt)
 2. [PEAR](https://sco.h-its.org/exelixis/web/software/pear/doc.html)
