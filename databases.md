@@ -4,7 +4,7 @@ You need to have the preformatted databases in a subdirectory named `/mg_pipelin
 
 Available databases in [figshare](https://figshare.com/account/home#/projects/27328) are:
 ### 16S or 18S
-- [SILVA](10.6084/m9.figshare.4814062) ver. 128 (see original [source](https://www.arb-silva.de))
+- [SILVA](10.6084/m9.figshare.6297371) ver. 132 (see original [source](https://www.arb-silva.de))
 - [RDP](10.6084/m9.figshare.4814959) ver. 11.5 (see original [source](http://rdp.cme.msu.edu/misc/resources.jsp))
 ### 16S
 - RDP V3-V4 ver. 11.5 Trimmed for the 16S V3 and V4 regions.
